@@ -1,0 +1,25 @@
+# Ignore dataset
+model_training/data/train_images/
+model_training/data/test_images/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Streamlit cache
+streamlit_app/__pycache__/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+venv/
+env/
