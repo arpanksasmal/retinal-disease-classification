@@ -2,6 +2,11 @@
 
 > **Custom CNN with CBAM Attention** for automated grading of Diabetic Retinopathy (DR) severity from retinal fundus photographs.
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red?logo=pytorch)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.32+-FF4B4B?logo=streamlit)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-orange?logo=scikit-learn)
+
 ---
 
 ## 📌 Project Overview
@@ -219,15 +224,3 @@ All hyperparameters live in `model_training/config.py`:
 
 This project is for **research and educational purposes only**.
 It is **not** a clinical diagnostic tool. Do not use model outputs to make medical decisions.
-
----
-
-## 📝 Resume Description (Ready to Copy)
-
-```
-Retinal Disease Detection — Medical Imaging CV          PyTorch · CBAM · Streamlit
-• Developed a custom CNN with CBAM (Channel + Spatial Attention) for 5-class
-  Diabetic Retinopathy grading on 3,662 retinal fundus images (APTOS 2019 dataset).
-• Implemented class-weighted CrossEntropy, CosineAnnealingLR, and early stopping
-  achieving 75–85% val accuracy; deployed end-to-end inference via Streamlit.
-```
